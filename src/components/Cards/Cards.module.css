@@ -1,0 +1,179 @@
+.containerCards {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #262626;
+}
+
+.containerCategory {
+  padding: 20px;
+  margin: 20px;
+}
+
+.containerCategory h2 {
+  text-align: center;
+  width: 350px;
+  padding: 8px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: #6BD1FF;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 335px;
+  cursor: pointer;
+}
+
+.card .cardEffect {
+  width: 335px;
+  height: 190px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card .buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  width: 335px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #000000;
+  border: 3px solid #6BD1FF;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.button img {
+  width: 20px;
+  height: 22px;
+}
+
+
+@media (max-width: 768px) {
+  .containerCategory {
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 50px;
+  }
+  
+  .containerCategory h2 {
+    width: 175px;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .card .cardEffect {
+    width: 300px;
+  }
+  
+  .card .buttons {
+    width: 300px;
+    padding: 15px 30px;
+  }
+  
+  .button {
+    gap: 8px;
+    font-size: 12px;
+  }
+  
+  .button img {
+    width: 18px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .containerCards {
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .containerCategory {
+    width: 325px;
+    margin-bottom: 50px;
+  }
+  
+  .containerCategory h2 {
+    width: 175px;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .card .cardEffect {
+    width: 316px;
+  }
+
+  .card .buttons {
+    width: 316px;
+    padding: 25px 50px;
+  }
+  
+  .button {
+    gap: 8px;
+    font-size: 15px;
+  }
+  
+  .button img {
+    width: 20px;
+    height: 23px;
+  }
+}
+
+@media (max-width: 375px) {
+  .containerCards {
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .containerCategory {
+    width: 285px;
+    margin-bottom: 50px;
+  }
+  
+  .containerCategory h2 {
+    width: 175px;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .card .cardEffect {
+    width: 275px;
+  }
+  
+  .card .buttons {
+    width: 275px;
+    padding: 15px 30px;
+  }
+  
+  .button {
+    gap: 8px;
+    font-size: 14px;
+  }
+  
+  .button img {
+    width: 18px;
+    height: 20px;
+  }
+}

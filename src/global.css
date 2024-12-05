@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+  background-color: #262626;
+}
+
+.toast-success {
+  right: 125px;
+  width: 450px;
+  padding: 16px; 
+  font-size: 18px; 
+  border-radius: 8px; 
+  color: #fff !important;
+  background-color: #2271D1 !important; 
+}
+
+.toast-error {
+  right: 125px;
+  width: 450px;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #fff !important;
+  background-color: #2271D1 !important; 
+}
+
+.toast-warning {
+  right: 125px;
+  width: 450px;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #fff !important;
+  background-color: #2271D1 !important; 
+}
+
+
+@media (max-width: 768px) {
+  .toast-success {
+    width: 375px;
+    right: 50px;
+  }
+
+  .toast-error {
+    width: 375px;
+    right: 50px;
+  }
+  
+  .toast-warning {
+    width: 375px;
+    right: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .toast-success {
+    width: 325px;
+    right: 0px;
+  }
+
+  .toast-error {
+    width: 325px;
+    right: 0px;
+  }
+  
+  .toast-warning {
+    width: 325px;
+    right: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .toast-success {
+    top: 25px;
+    width: 295px;
+    left: 40px;
+  }
+
+  .toast-error {
+    top: 25px;
+    width: 295px;
+    left: 40px;
+  }
+  
+  .toast-warning {
+    top: 25px;
+    width: 295px;
+    left: 40px;
+  }
+}

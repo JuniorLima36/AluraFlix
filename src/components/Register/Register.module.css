@@ -1,0 +1,173 @@
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  height: 83.8vh;
+  background-color: #262626;
+}
+
+.formHeader {
+  text-align: center;
+  width: 772px;
+  padding: 20px;
+  border-bottom: 1px solid #2271D1;
+}
+
+.formHeader h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.formHeader p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+}
+
+.formContainer h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+  font-family: 'Source Sans 3', sans-serif;
+  border-bottom: 1px solid #2271D1;
+}
+
+.formInputs {
+  display: flex;
+  gap: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+}
+
+.buttons button {
+  border: 2px solid #FFFFFF;
+  width: 180px;
+  height: 42px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.buttons button:hover {
+  color: #2271D1;
+  border: 2px solid #2271D1;
+}
+
+
+@media (max-width: 768px) {
+  .form {
+    height: 84.7vh;
+  }
+  
+  .formHeader {
+    width: 572px;
+    padding: 20px;
+  }
+  
+  .formHeader h2 {
+    font-size: 35px;
+  }
+  
+  .formHeader p {
+    font-size: 16px;
+  }
+  
+  .formContainer {
+    gap: 10px;
+  }
+  
+  .formContainer h2 {
+    font-size: 28px;
+  }
+  
+  .buttons button {
+    width: 135px;
+    height: 35px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .form {
+    height: 95vh;
+  }
+  
+  .formHeader {
+    width: 325px;
+    padding: 20px;
+  }
+  
+  .formHeader h2 {
+    font-size: 28px;
+  }
+  
+  .formHeader p {
+    font-size: 13px;
+  }
+  
+  .formContainer {
+    gap: 10px;
+  }
+  
+  .formContainer h2 {
+    font-size: 18px;
+  }
+  
+  .buttons button {
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .form {
+    height: 100%;
+  }
+  
+  .formHeader {
+    width: 295px;
+    padding: 20px;
+  }
+  
+  .formHeader h2 {
+    font-size: 28px;
+  }
+  
+  .formHeader p {
+    font-size: 14px;
+  }
+  
+  .formContainer {
+    gap: 10px;
+  }
+  
+  .formContainer h2 {
+    font-size: 22px;
+  }
+  
+  .buttons button {
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+  }
+}

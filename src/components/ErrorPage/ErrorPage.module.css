@@ -1,0 +1,139 @@
+.bannerErrorPage {
+  background-color: #262626;
+  background-size: cover;
+  height: 83.8vh;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+}
+
+.errorPageCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  gap: 100px;
+}
+
+.errorPageCardText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 875px;
+}
+
+.errorPageCardText h1 {
+  display: flex;
+  justify-content: center;
+  width: 296px;
+  height: 62px;
+  padding: 8px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-radius: 10px;
+  background-color: #2271D1;
+}
+
+.errorPageCardText h2 {
+  color: #FFFFFF;
+  font-size: 38px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.errorPageImage img {
+  background-size: contain;
+  background-clip: content-box;
+  border-radius: 10px;
+  width: 600px;
+}
+
+.errorPageCardText button {
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 180px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  border-radius: 10px;
+  background-color: #2271D1;
+  border: 2px solid #2271D1;;
+}
+
+
+@media (max-width: 768px) {
+  .errorPageCard {
+    padding: 100px 50px;
+    gap: 50px;
+  }
+  
+  .errorPageCardText {
+    width: 500px;
+  }
+  
+  .errorPageCardText h1 {
+    width: 186px;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  .errorPageCardText h2 {
+    font-size: 25px;
+  }
+  
+  .errorPageImage img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .errorPageCard {
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+  }
+  
+  .errorPageCardText {
+    width: 375px;
+  }
+  
+  .errorPageCardText h1 {
+    width: 186px;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  .errorPageCardText h2 {
+    font-size: 25px;
+  }
+  
+  .errorPageImage img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  .errorPageCard {
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+  }
+  
+  .errorPageCardText {
+    width: 295px;
+  }
+  
+  .errorPageCardText h1 {
+    width: 186px;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  .errorPageCardText h2 {
+    font-size: 25px;
+  }
+  
+  .errorPageImage img {
+    width: 300px;
+  }
+}

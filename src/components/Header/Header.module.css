@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 75px;
+  background-color: #000000;
+}
+
+.header img {
+  width: 168px;
+  height: 32px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons button {
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 180px;
+  height: 42px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+}
+
+
+.buttons button:focus,
+.buttons button:hover {
+  color: #2271D1;
+  border: 2px solid #2271D1;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  .header img {
+    width: 105px;
+    height: 20px;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .buttons button {
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+  }
+} 
+
+@media (max-width: 500px) {
+  .header {
+    padding: 20px;
+  }
+
+  .header img {
+    width: 105px;
+    height: 20px;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .buttons button {
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    padding: 20px;
+  }
+
+  .header img {
+    width: 105px;
+    height: 20px;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .buttons button {
+    width: 95px;
+    height: 25px;
+    font-size: 13px;
+  }
+}
